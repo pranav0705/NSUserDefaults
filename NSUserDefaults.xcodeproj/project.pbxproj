@@ -14,6 +14,8 @@
 		554DE7901E91E57A0056B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554DE78E1E91E57A0056B654 /* LaunchScreen.storyboard */; };
 		554DE79B1E91E57A0056B654 /* NSUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DE79A1E91E57A0056B654 /* NSUserDefaultsTests.swift */; };
 		554DE7A61E91E57A0056B654 /* NSUserDefaultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DE7A51E91E57A0056B654 /* NSUserDefaultsUITests.swift */; };
+		554DE7B51E91EB470056B654 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 554DE7B31E91EB470056B654 /* moon.png */; };
+		554DE7B61E91EB470056B654 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 554DE7B41E91EB470056B654 /* Sun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		554DE7A11E91E57A0056B654 /* NSUserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUserDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		554DE7A51E91E57A0056B654 /* NSUserDefaultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsUITests.swift; sourceTree = "<group>"; };
 		554DE7A71E91E57A0056B654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		554DE7B31E91EB470056B654 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = images/moon.png; sourceTree = SOURCE_ROOT; };
+		554DE7B41E91EB470056B654 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = images/Sun.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		554DE7841E91E57A0056B654 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				554DE7B71E91EB530056B654 /* Images */,
 				554DE7851E91E57A0056B654 /* AppDelegate.swift */,
 				554DE7871E91E57A0056B654 /* ViewController.swift */,
 				554DE7891E91E57A0056B654 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				554DE7A71E91E57A0056B654 /* Info.plist */,
 			);
 			path = NSUserDefaultsUITests;
+			sourceTree = "<group>";
+		};
+		554DE7B71E91EB530056B654 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				554DE7B41E91EB470056B654 /* Sun.png */,
+				554DE7B31E91EB470056B654 /* moon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554DE7B61E91EB470056B654 /* Sun.png in Resources */,
+				554DE7B51E91EB470056B654 /* moon.png in Resources */,
 				554DE7901E91E57A0056B654 /* LaunchScreen.storyboard in Resources */,
 				554DE78D1E91E57A0056B654 /* Assets.xcassets in Resources */,
 				554DE78B1E91E57A0056B654 /* Main.storyboard in Resources */,
